@@ -47,6 +47,8 @@ docker desktop이나 Windows 기준 명령 프롬프트(MAC => terminals)를 통
 <br/>
 
 https://docs.docker.com/ 에서 docker를 다루는 명령어를 서치할 수 있다.
+
+
 또는 docker desktop에서 검색 기능을 활용해 이미지 파일을 pull해오거나, 이미지 파일을 컨테이너에 띄울 수 있다.(당연히 제거도 가능하다.)
 
 <br/>
