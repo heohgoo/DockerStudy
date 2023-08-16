@@ -48,7 +48,6 @@ docker desktop이나 Windows 기준 명령 프롬프트(MAC => terminals)를 통
 
 https://docs.docker.com/ 에서 docker를 다루는 명령어를 서치할 수 있다.
 
-
 또는 docker desktop에서 검색 기능을 활용해 이미지 파일을 pull해오거나, 이미지 파일을 컨테이너에 띄울 수 있다.(당연히 제거도 가능하다.)
 
 <br/>
@@ -58,7 +57,7 @@ https://docs.docker.com/ 에서 docker를 다루는 명령어를 서치할 수 �
 
 ![image](https://github.com/heohgoo/DockerStudy/assets/95553132/c364447c-3690-49c4-94c3-fe244d091285)
 
-Host의 8080번과 8081번 포트에서 Container의 80번 포트로 `포트포워딩`해주는 서버 2개를 생성하였다.
+Host의 8080번과 8081번 포트에서 Container의 80번 포트로 `포트포워딩`해주는 컨테이너 2개를 생성하였다.
 
 <br/>
 <br/>
