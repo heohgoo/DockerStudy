@@ -113,12 +113,14 @@ Containers => Terminal 에 들어가서 명령어 입력하면 된다.
 
 
 ### 호스트와 컨테이너의 파일 시스템 연결
+<br/>
+<br/>
 
 코드 에디터를 통해 하나의 html 파일을 생성하고 이 html 파일로 컨테이너의 html 파일을 관리할 수 있다.(디렉토리 이동)
+<br/>
+<br/>
 
-해당 html 파일을 작성하고 터미널에 
-
-윈도우 기준
+해당 html 파일을 작성하고 터미널에 `윈도우` 기준
 
 ```
 docker run -p 8888:80 -v C:\Users\Heo\study\docker\htdocs:/usr/local/apache2/htdocs httpd
@@ -126,7 +128,10 @@ docker run -p 8888:80 -v C:\Users\Heo\study\docker\htdocs:/usr/local/apache2/htd
 
 (리눅스와 윈도우 간 상대 경로 표기법이 다르므로 따로 서치해서 변경 => / 사용)
 
-해당 포트(8888번)에서 실행되는 웹 서버를 통해 GET 방식으로 받아오는 html 파일을 자유롭게 변경할 수 있게 된다.
+<br/>
+<br/>
+
+해당 포트(8888번)에서 실행되는 웹 서버를 통해 GET 방식으로 받아오는 html 파일을 자유롭게 변경할 수 있게 된다.(버전 관리를 한다던지...)
 
 
 
