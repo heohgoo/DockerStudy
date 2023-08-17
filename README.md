@@ -76,6 +76,38 @@ docker desktop에서 로그를 확인해보면
 GET 방식으로 index.html 파일을 응답받아온 것을 확인할 수 있다.
 
 
+### 명령어 실행
+
+* 터미널 환경
+```
+$ docker exec [OPTIONS] CONTAINER COMMAND [ARG ...] 
+```
+
+위의 코드로 명령어 실행이 가능하다.
+
+
+* 도커 테스크탑 환경
+
+Containers => Terminal 에 들어가서 명령어 입력하면 된다.
+
+
+예를 들어, 컨테이너에 포함되어 있는 index.html 파일을 수정하고자 한다면, 해당 경로로 이동한 후 nano와 같은 에디터를 사용하여 수정하면 된다.
+
+
+
+![image](https://github.com/heohgoo/DockerStudy/assets/95553132/f1fc6053-b06b-4c33-8d33-6510f33d5686)
+
+
+
+![image](https://github.com/heohgoo/DockerStudy/assets/95553132/97105286-925e-4a43-b90d-ba680a4e97b4)
+
+
+
+
+
+
+
+
 
 
 
